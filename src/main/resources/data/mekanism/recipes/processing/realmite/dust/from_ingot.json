@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:crushing",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:ingots/realmite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:realmite_dust"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:ores/torridite"
+  },
+  "output": {
+    "count": 2,
+    "item": "drpgpc:torridite_chunks"
+  },
+  "secondary": {
+    "chance": 0.1,
+    "item": "minecraft:gravel"
+  }
+}

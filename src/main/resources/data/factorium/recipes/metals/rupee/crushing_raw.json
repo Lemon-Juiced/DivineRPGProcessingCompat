@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:raw_materials/rupee"
+  },
+  "output": {
+    "count": 2,
+    "item": "drpgpc:rupee_chunks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "factorium:grinder",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:realmite_powder"
+  },
+  "input": {
+    "tag": "forge:chunks/realmite"
+  },
+  "output": {
+    "item": "drpgpc:realmite_powder"
+  }
+}

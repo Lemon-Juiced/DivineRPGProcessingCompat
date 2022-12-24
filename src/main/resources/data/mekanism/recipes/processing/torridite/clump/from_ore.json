@@ -1,0 +1,20 @@
+{
+  "type":"mekanism:purifying",
+  "chemicalInput":
+  {
+    "amount":1,
+    "gas":"mekanism:oxygen"
+  },
+  "itemInput":
+  {
+    "ingredient":
+    {
+      "tag":"forge:ores/blocks/torridite"
+    }
+  },
+  "output":
+  {
+    "count":3,
+    "item":"drpgpc:clump_torridite"
+  }
+}

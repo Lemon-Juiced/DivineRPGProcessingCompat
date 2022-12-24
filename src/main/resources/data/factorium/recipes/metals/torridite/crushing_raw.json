@@ -1,0 +1,10 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:raw_materials/torridite"
+  },
+  "output": {
+    "count": 2,
+    "item": "drpgpc:torridite_chunks"
+  }
+}

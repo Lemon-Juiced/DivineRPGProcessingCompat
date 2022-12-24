@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter_recycle",
+  "ingredient": {
+    "tag": "forge:tools/arlemite"
+  },
+  "result": [
+    {
+      "item": "divinerpg:arlemite_ingot",
+      "count": 1
+    }
+  ],
+  "experience": 0.2
+}

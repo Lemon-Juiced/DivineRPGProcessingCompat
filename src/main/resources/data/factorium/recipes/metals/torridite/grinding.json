@@ -1,0 +1,13 @@
+{
+  "type": "factorium:grinder",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:torridite_powder"
+  },
+  "input": {
+    "tag": "forge:chunks/torridite"
+  },
+  "output": {
+    "item": "drpgpc:torridite_powder"
+  }
+}

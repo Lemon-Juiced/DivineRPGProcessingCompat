@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/arlemite"
+  },
+  "result": [
+    {
+      "item": "drpgpc:arlemite_dust",
+      "count": 1
+    }
+  ]
+}

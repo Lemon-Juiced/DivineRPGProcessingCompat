@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/arlemite"
+  },
+  "result": {
+    "item": "drpgpc:arlemite_dust",
+    "count": 2
+  }
+}

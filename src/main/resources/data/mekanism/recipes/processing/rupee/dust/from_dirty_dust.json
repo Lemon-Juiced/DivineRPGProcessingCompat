@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:enriching",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:dirty_dusts/rupee"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:rupee_dust"
+  }
+}

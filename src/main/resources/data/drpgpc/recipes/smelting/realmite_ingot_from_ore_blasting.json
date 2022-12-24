@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "value": [
+      {
+        "item": "divinerpg:realmite_ore"
+      },
+      {
+        "item": "divinerpg:deepslate_realmite_ore"
+      }
+    ]
+  },
+  "result": "divinerpg:realmite_ingot"
+}

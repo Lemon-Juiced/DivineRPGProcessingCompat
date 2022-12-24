@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:enriching",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:dirty_dusts/torridite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:torridite_dust"
+  }
+}

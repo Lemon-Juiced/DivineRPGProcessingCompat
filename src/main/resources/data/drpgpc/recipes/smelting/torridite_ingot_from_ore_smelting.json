@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "divinerpg:torridite_ore"
+  },
+  "result": "divinerpg:torridite_ingot"
+}

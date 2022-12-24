@@ -1,0 +1,40 @@
+{
+  "item.drpgpc.arlemite_chunks": "Arlemite Chunks",
+  "item.drpgpc.realmite_chunks": "Realmite Chunks",
+  "item.drpgpc.rupee_chunks": "Rupee Chunks",
+  "item.drpgpc.torridite_chunks": "Torridite Chunks",
+
+  "item.drpgpc.clump_arlemite": "Arlemite Clump",
+  "item.drpgpc.clump_realmite": "Realmite Clump",
+  "item.drpgpc.clump_rupee": "Rupee Clump",
+  "item.drpgpc.clump_torridite": "Torridite Clump",
+
+  "item.drpgpc.dirty_dust_arlemite": "Dirty Arlemite Dust",
+  "item.drpgpc.dirty_dust_realmite": "Dirty Realmite Dust",
+  "item.drpgpc.dirty_dust_rupee": "Dirty Rupee Dust",
+  "item.drpgpc.dirty_dust_torridite": "Dirty Torridite Dust",
+
+  "item.drpgpc.arlemite_dust": "Arlemite Dust",
+  "item.drpgpc.realmite_dust": "Realmite Dust",
+  "item.drpgpc.rupee_dust": "Rupee Dust",
+  "item.drpgpc.torridite_dust": "Torridite Dust",
+
+  "item.drpgpc.arlemite_powder": "Arlemite Powder",
+  "item.drpgpc.realmite_powder": "Realmite Powder",
+  "item.drpgpc.rupee_powder": "Rupee Powder",
+  "item.drpgpc.torridite_powder": "Torridite Powder",
+
+  "item.drpgpc.shard_arlemite": "Arlemite Shard",
+  "item.drpgpc.shard_realmite": "Realmite Shard",
+  "item.drpgpc.shard_rupee": "Rupee Shard",
+  "item.drpgpc.shard_torridite": "Torridite Shard",
+
+  "torridite_chunks.tooltip": "Formerly Netherite Chunks",
+  "torridite_clump.tooltip": "Formerly Netherite Clump",
+  "torridite_dirty_dust.tooltip": "Formerly Dirty Netherite Dust",
+  "torridite_dust.tooltip": "Formerly Netherite Dust",
+  "torridite_powder.tooltip": "Formerly Netherite Powder",
+  "torridite_shard.tooltip": "Formerly Netherite Shard",
+
+  "itemGroup.drpgpc_tab": "DivineRPG Processing Compat"
+}

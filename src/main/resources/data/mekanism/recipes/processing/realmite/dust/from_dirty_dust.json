@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:enriching",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:dirty_dusts/realmite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:realmite_dust"
+  }
+}

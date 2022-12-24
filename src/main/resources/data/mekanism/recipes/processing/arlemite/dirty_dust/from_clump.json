@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:crushing",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:clumps/arlemite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:dirty_dust_arlemite"
+  }
+}

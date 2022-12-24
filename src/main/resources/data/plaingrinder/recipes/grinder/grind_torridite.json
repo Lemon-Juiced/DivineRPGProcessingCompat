@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/torridite"
+  },
+  "result": {
+    "item": "drpgpc:torridite_dust",
+    "count": 2
+  }
+}

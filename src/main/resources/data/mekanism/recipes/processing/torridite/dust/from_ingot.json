@@ -1,0 +1,14 @@
+{
+  "type":"mekanism:crushing",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:ingots/torridite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:torridite_dust"
+  }
+}

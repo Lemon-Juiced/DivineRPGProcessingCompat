@@ -1,0 +1,14 @@
+{
+  "type": "factorium:extruder",
+  "die": {
+    "item": "factorium:die_nugget"
+  },
+  "input": {
+    "count": 1,
+    "tag": "forge:ingots/torridite"
+  },
+  "output": {
+    "count": 9,
+    "item": "divinerpg:torridite_nugget"
+  }
+}

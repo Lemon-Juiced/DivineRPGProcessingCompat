@@ -1,0 +1,19 @@
+{
+  "type":"mekanism:purifying",
+  "chemicalInput":
+  {
+    "amount":1,
+    "gas":"mekanism:oxygen"
+  },
+  "itemInput":
+  {
+    "ingredient":
+    {
+      "tag":"forge:shards/realmite"
+    }
+  },
+  "output":
+  {
+    "item":"drpgpc:clump_realmite"
+  }
+}

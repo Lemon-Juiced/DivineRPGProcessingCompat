@@ -1,0 +1,14 @@
+{
+  "type": "factorium:crusher",
+  "input": {
+    "tag": "forge:ores/rupee"
+  },
+  "output": {
+    "count": 2,
+    "item": "drpgpc:rupee_chunks"
+  },
+  "secondary": {
+    "chance": 0.1,
+    "item": "minecraft:gravel"
+  }
+}

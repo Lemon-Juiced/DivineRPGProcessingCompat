@@ -1,0 +1,15 @@
+{
+  "type":"mekanism:enriching",
+  "input":
+  {
+    "ingredient":
+    {
+      "tag":"forge:ores/bloodgem"
+    }
+  },
+  "output":
+  {
+    "count":2,
+    "item":"divinerpg:bloodgem"
+  }
+}

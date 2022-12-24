@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:rupee_dust"
+  },
+  "input": {
+    "tag": "forge:powders/rupee"
+  },
+  "output": {
+    "item": "drpgpc:rupee_dust"
+  }
+}

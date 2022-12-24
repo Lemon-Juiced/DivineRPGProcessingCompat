@@ -1,0 +1,15 @@
+{
+  "type": "factorium:alloy",
+  "input1": {
+    "tag": "forge:ingots/arlemite",
+    "count": 1
+  },
+  "input2": {
+    "tag": "forge:ingots/rupee",
+    "count": 1
+  },
+  "output": {
+    "item": "divinerpg:shadow_bar",
+    "count": 1
+  }
+}

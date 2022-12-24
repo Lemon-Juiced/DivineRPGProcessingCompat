@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/rupee"
+  },
+  "result": {
+    "item": "drpgpc:rupee_dust",
+    "count": 2
+  }
+}

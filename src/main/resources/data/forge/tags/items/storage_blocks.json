@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#forge:storage_blocks/arlemite",
+    "#forge:storage_blocks/bloodgem",
+    "#forge:storage_blocks/raw_arlemite",
+    "#forge:storage_blocks/raw_realmite",
+    "#forge:storage_blocks/raw_rupee",
+    "#forge:storage_blocks/raw_torridite",
+    "#forge:storage_blocks/realmite",
+    "#forge:storage_blocks/rupee",
+    "#forge:storage_blocks/torridite"
+  ]
+}

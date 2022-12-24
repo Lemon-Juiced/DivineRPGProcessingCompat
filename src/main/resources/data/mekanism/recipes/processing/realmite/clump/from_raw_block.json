@@ -1,0 +1,20 @@
+{
+  "type":"mekanism:purifying",
+  "chemicalInput":
+  {
+    "amount":2,
+    "gas":"mekanism:oxygen"
+  },
+  "itemInput":
+  {
+    "ingredient":
+    {
+      "tag":"forge:storage_blocks/raw_realmite"
+    }
+  },
+  "output":
+  {
+    "count":18,
+    "item":"drpgpc:clump_realmite"
+  }
+}

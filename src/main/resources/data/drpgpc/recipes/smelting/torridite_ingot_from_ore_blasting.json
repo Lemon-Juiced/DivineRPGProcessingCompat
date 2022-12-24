@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "value": [
+      {
+        "item": "divinerpg:torridite_ore"
+      },
+      {
+        "item": "divinerpg:deepslate_torridite_ore"
+      }
+    ]
+  },
+  "result": "divinerpg:torridite_ingot"
+}

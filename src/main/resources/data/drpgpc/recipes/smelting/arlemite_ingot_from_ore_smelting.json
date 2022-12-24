@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "value": [
+      {
+        "item": "divinerpg:arlemite_ore"
+      },
+      {
+        "item": "divinerpg:deepslate_arlemite_ore"
+      }
+    ]
+  },
+  "result": "divinerpg:arlemite_ingot"
+}

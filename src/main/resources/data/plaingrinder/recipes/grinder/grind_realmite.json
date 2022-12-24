@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "tag": "forge:ores/realmite"
+  },
+  "result": {
+    "item": "drpgpc:realmite_dust",
+    "count": 2
+  }
+}

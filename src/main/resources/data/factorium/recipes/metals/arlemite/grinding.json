@@ -1,0 +1,13 @@
+{
+  "type": "factorium:grinder",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:arlemite_powder"
+  },
+  "input": {
+    "tag": "forge:chunks/arlemite"
+  },
+  "output": {
+    "item": "drpgpc:arlemite_powder"
+  }
+}

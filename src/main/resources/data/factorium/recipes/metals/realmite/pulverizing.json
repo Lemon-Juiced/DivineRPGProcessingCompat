@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:realmite_dust"
+  },
+  "input": {
+    "tag": "forge:powders/realmite"
+  },
+  "output": {
+    "item": "drpgpc:realmite_dust"
+  }
+}

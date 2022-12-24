@@ -1,0 +1,13 @@
+{
+  "type": "factorium:pulverizer",
+  "bonus": {
+    "chance": 0.25,
+    "item": "drpgpc:torridite_dust"
+  },
+  "input": {
+    "tag": "forge:powders/torridite"
+  },
+  "output": {
+    "item": "drpgpc:torridite_dust"
+  }
+}

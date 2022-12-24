@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "drpgpc:arlemite_dust"
+  },
+  "result": "divinerpg:arlemite_ingot"
+}
