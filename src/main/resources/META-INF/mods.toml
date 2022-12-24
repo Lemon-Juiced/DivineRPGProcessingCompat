@@ -50,6 +50,7 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
 1.0.0-pre2: Added Mekanism Integration
 1.0.0-pre3: Added Plain Grinder Integration
 1.0.0-pre4: Added Factorium Integration
+1.0.0-pre5: Added Integrated Dynamics Integration
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.drpgpc]] #optional
@@ -128,5 +129,24 @@ modId="themal_foundation"
     modId="kotori_scala"
     mandatory=false
     versionRange="[2.13.8,2.14.0)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.drpgpc]]
+    modId="commoncapabilities"
+    mandatory=false
+    versionRange = "[2.8.3,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.drpgpc]]
+    modId="cyclopscore"
+    mandatory=false
+    versionRange="[1.17.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.drpgpc]]
+    modId="integrateddynamics"
+    mandatory=false
+    versionRange="[1.14.4,)"
     ordering="NONE"
     side="BOTH"

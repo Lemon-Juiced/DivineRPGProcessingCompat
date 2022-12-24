@@ -150,6 +150,11 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:divinerpg-363543:4120502"))
 
     // Factorium Optional Dependency
+    runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:3929863"))
+    runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:4162688"))
+    runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:4181058"))
+
+    // Integrated Dynamics Optional Dependency
     runtimeOnly(fg.deobf("curse.maven:bdlib-70496:4100704"))
     runtimeOnly(fg.deobf("curse.maven:factorium-583423:4100713"))
     runtimeOnly(fg.deobf("curse.maven:kotori_scala-320926:4028119"))

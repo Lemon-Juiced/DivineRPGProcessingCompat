@@ -1,0 +1,18 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "tag": "forge:ores/blocks/torridite"
+  },
+  "result": {
+    "items": [
+      {
+        "tag": "forge:raw_materials/torridite",
+        "count": 2
+      },
+      {
+        "tag": "forge:raw_materials/torridite",
+        "chance": 0.75
+      }
+    ]
+  }
+}

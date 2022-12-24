@@ -1,0 +1,34 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "tag": "forge:ores/bloodgem"
+  },
+  "result": {
+    "items": [
+      {
+        "tag": "forge:gems/bloodgem"
+      },
+      {
+        "tag": "forge:gems/bloodgem",
+        "chance": 0.75
+      }
+    ]
+  },
+  "duration": 40,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gems/bloodgem"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/bloodgem"
+      }
+    }
+  ]
+}
