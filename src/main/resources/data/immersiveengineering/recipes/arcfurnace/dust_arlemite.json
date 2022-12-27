@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [],
+  "energy": 51200,
+  "input": {
+    "tag": "forge:dusts/arlemite"
+  },
+  "results": [
+    {
+      "item": "divinerpg:arlemite_ingot"
+    }
+  ],
+  "time": 100
+}

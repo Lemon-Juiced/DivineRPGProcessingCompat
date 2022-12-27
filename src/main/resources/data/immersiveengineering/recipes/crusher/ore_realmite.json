@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/blocks/realmite"
+  },
+  "result": {
+    "base_ingredient": {
+      "item": "drpgpc:realmite_dust"
+    },
+    "count": 2
+  },
+  "secondaries": [
+  ]
+}

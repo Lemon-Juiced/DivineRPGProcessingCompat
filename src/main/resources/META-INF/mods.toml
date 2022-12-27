@@ -51,7 +51,8 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
 1.0.0-pre3: Added Plain Grinder Integration
 1.0.0-pre4: Added Factorium Integration
 1.0.0-pre5: Added Integrated Dynamics Integration
-1.0.9-pre7: Added Create Integration
+1.0.0-pre7: Added Create Integration
+1.0.0: Added Immersive Engineering Integration
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.drpgpc]] #optional
@@ -170,4 +171,12 @@ modId="themal_foundation"
     mandatory=false
     versionRange="[0.6,0.7)"
     ordering="NONE"
+    side="BOTH"
+
+# Immersive Engineering Optional Dependencies
+[[dependencies.drpgpc]]
+    modId="immersiveengineering"
+    mandatory=false
+    versionRange="[1.19.2-9.1.0,)"
+    ordering="BEFORE"
     side="BOTH"

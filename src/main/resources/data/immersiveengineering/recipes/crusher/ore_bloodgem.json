@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "forge:ores/bloodgem"
+  },
+  "result": {
+    "base_ingredient": {
+      "item": "divinerpg:bloodgem"
+    },
+    "count": 2
+  },
+  "secondaries": []
+}
