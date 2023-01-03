@@ -1,0 +1,12 @@
+{
+  "type": "stonegrinder:grinding",
+  "ingredient": {
+    "tag": "forge:ores/realmite"
+  },
+  "result": {
+    "item": "drpgpc:realmite_dust",
+    "count": 2
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

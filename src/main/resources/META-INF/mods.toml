@@ -53,6 +53,7 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
 1.0.0-pre5: Added Integrated Dynamics Integration
 1.0.0-pre7: Added Create Integration
 1.0.0: Added Immersive Engineering Integration
+1.0.2: Added Simple Grinder Integration, Added Stone Grinder Integration
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.drpgpc]] #optional
@@ -173,10 +174,26 @@ modId="themal_foundation"
     ordering="NONE"
     side="BOTH"
 
-# Immersive Engineering Optional Dependencies
+# Immersive Engineering Optional Dependency
 [[dependencies.drpgpc]]
     modId="immersiveengineering"
     mandatory=false
     versionRange="[1.19.2-9.1.0,)"
+    ordering="BEFORE"
+    side="BOTH"
+
+# Simple Grinder Optional Dependency
+[[dependencies.drpgpc]]
+    modId="simplegrinder"
+    mandatory=false
+    versionRange="[19.1.2,)"
+    ordering="BEFORE"
+    side="BOTH"
+
+# Stone Grinder Optional Dependency
+[[dependencies.drpgpc]]
+modId="stonegrinder"
+    mandatory=false
+    versionRange="[1.0.5,)"
     ordering="BEFORE"
     side="BOTH"

@@ -165,6 +165,12 @@ dependencies {
     // Plain Grinder Optional Dependency
     runtimeOnly(fg.deobf("curse.maven:plain_grinder-452000:3915901"))
 
+    // Simple Grinder Optional Dependency
+    runtimeOnly(fg.deobf("curse.maven:simple_grinder-238899:4058995"))
+
+    // Stone Grinder Optional Dependency
+    runtimeOnly(fg.deobf("curse.maven:stone_grinder-681480:4160975"))
+
     // Thermal Series Optional Dependency
     runtimeOnly(fg.deobf("curse.maven:cofh_core-69162:4202944"))
     runtimeOnly(fg.deobf("curse.maven:thermal_expansion-69163:4112130"))

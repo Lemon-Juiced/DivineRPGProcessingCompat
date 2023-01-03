@@ -1,0 +1,12 @@
+{
+  "type": "stonegrinder:grinding",
+  "ingredient": {
+    "tag": "forge:ores/torridite"
+  },
+  "result": {
+    "item": "drpgpc:torridite_dust",
+    "count": 2
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}
