@@ -36,5 +36,7 @@
   "torridite_powder.tooltip": "Formerly Netherite Powder",
   "torridite_shard.tooltip": "Formerly Netherite Shard",
 
-  "itemGroup.drpgpc_tab": "DivineRPG Processing Compat"
+  "itemGroup.drpgpc_common": "DivineRPG Processing Compat: Common",
+  "itemGroup.drpgpc_factorium": "DivineRPG Processing Compat: Factorium",
+  "itemGroup.drpgpc_mekanism": "DivineRPG Processing Compat: Mekanism"
 }

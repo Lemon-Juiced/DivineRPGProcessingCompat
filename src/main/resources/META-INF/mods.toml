@@ -6,7 +6,7 @@
 # The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
-loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[44,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="All rights reserved"
@@ -19,7 +19,7 @@ modId="drpgpc" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="1.0.2-1.19.2" #mandatory
+version="1.0.3-1.19.2" #mandatory
  # A display name for the mod
 displayName="DivineRPG Processing Compat" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -54,6 +54,7 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
 1.0.0-pre7: Added Create Integration
 1.0.0: Added Immersive Engineering Integration
 1.0.2: Added Simple Grinder Integration, Added Stone Grinder Integration
+1.0.3: Update To 1.19.3 - Only supporting Simple Grinder and Stone Grinder until other mods update.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.drpgpc]] #optional
@@ -62,7 +63,7 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[43,)" #mandatory
+    versionRange="[44,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -72,7 +73,7 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.19.3,1.20)"
     ordering="NONE"
     side="BOTH"
 
@@ -80,113 +81,15 @@ This mod allows Divine RPG ores to be ground down into dusts and then smelted in
 [[dependencies.drpgpc]]
     modId="divinerpg"
     mandatory=true
-    versionRange="[1.9.6.3,)"
+    versionRange="[1.9.7,)"
     ordering="NONE"
-    side="BOTH"
-
-# Thermal Expansion Optional Dependencies
-[[dependencies.drpgpc]]
-    modId="cofh_core"
-    mandatory=false
-    versionRange="[10.0.2.23,)"
-    ordering="NONE"
-side="BOTH"
-[[dependencies.drpgpc]]
-    modId="themal_expansion"
-    mandatory=false
-    versionRange="[10.0.0.38,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.drpgpc]]
-modId="themal_foundation"
-    mandatory=false
-    versionRange="[10.0.0.19,)"
-    ordering="NONE"
-    side="BOTH"
-
-# Mekanism Optional Dependency
-[[dependencies.drpgpc]]
-    modId="mekanism"
-    mandatory=false
-    versionRange="[10.3.5,)"
-    ordering="NONE"
-    side="BOTH"
-
-# Plain Grinder Optional Dependency
-[[dependencies.drpgpc]]
-    modId="plaingrinder"
-    mandatory=false
-    versionRange="[1.2.6,)"
-    ordering="NONE"
-    side="BOTH"
-
-# Factorium Optional Dependencies
-[[dependencies.drpgpc]]
-    modId="bdlib"
-    mandatory=false
-    versionRange = "[1.25.0,)"
-    ordering = "NONE"
-    side = "BOTH"
-[[dependencies.drpgpc]]
-    modId="factorium"
-    mandatory=false
-    versionRange="[1.4.0.4,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.drpgpc]]
-    modId="kotori_scala"
-    mandatory=false
-    versionRange="[2.13.8,2.14.0)"
-    ordering="NONE"
-    side="BOTH"
-
-# Integrated Dynamics Optional Dependencies
-[[dependencies.drpgpc]]
-    modId="commoncapabilities"
-    mandatory=false
-    versionRange = "[2.8.3,)"
-    ordering = "NONE"
-    side = "BOTH"
-[[dependencies.drpgpc]]
-    modId="cyclopscore"
-    mandatory=false
-    versionRange="[1.17.2,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.drpgpc]]
-    modId="integrateddynamics"
-    mandatory=false
-    versionRange="[1.14.4,)"
-    ordering="NONE"
-    side="BOTH"
-
-# Create Optional Dependencies
-[[dependencies.drpgpc]]
-    modId="create"
-    mandatory=false
-    versionRange="[0.5a,0.6)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.drpgpc]]
-    modId="flywheel"
-    mandatory=false
-    versionRange="[0.6,0.7)"
-    ordering="NONE"
-    side="BOTH"
-
-# Immersive Engineering Optional Dependency
-[[dependencies.drpgpc]]
-    modId="immersiveengineering"
-    mandatory=false
-    versionRange="[1.19.2-9.1.0,)"
-    ordering="BEFORE"
     side="BOTH"
 
 # Simple Grinder Optional Dependency
 [[dependencies.drpgpc]]
     modId="simplegrinder"
     mandatory=false
-    versionRange="[19.1.2,)"
+    versionRange="[1.0,)"
     ordering="BEFORE"
     side="BOTH"
 

@@ -1,7 +1,7 @@
 {
   "type": "stonegrinder:grinding",
   "ingredient": {
-    "item": "divinerpg:raw_realmite"
+    "item": "forge:raw_materials/realmite"
   },
   "result": {
     "item": "drpgpc:realmite_dust",

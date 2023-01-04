@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.0.2-1.19.2'
+version = '1.0.3-1.19.3'
 group = 'lemon_juice.drpgpc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'drpgpc'
 
@@ -26,7 +26,7 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: 'official', version: '1.19.3'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -138,43 +138,43 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft 'net.minecraftforge:forge:1.19.3-44.1.0'
 
     // compile against the JEI API but do not include it at runtime
-    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
-    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
+    //compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
+    //compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
     // at runtime, use the full JEI jar for Forge
-    runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
+    //runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 
     // DivineRPG Dependency
-    runtimeOnly(fg.deobf("curse.maven:divinerpg-363543:4120502"))
+    runtimeOnly(fg.deobf("curse.maven:divinerpg-363543:4205686"))
 
     // Factorium Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:3929863"))
-    runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:4162688"))
-    runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:4181058"))
+    //runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:3929863"))
+    //runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:4162688"))
+    //runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:4181058"))
 
     // Integrated Dynamics Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:bdlib-70496:4100704"))
-    runtimeOnly(fg.deobf("curse.maven:factorium-583423:4100713"))
-    runtimeOnly(fg.deobf("curse.maven:kotori_scala-320926:4028119"))
+    //runtimeOnly(fg.deobf("curse.maven:bdlib-70496:4100704"))
+    //runtimeOnly(fg.deobf("curse.maven:factorium-583423:4100713"))
+    //runtimeOnly(fg.deobf("curse.maven:kotori_scala-320926:4028119"))
 
     // Mekanism Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:mekanism-268560:4041164"))
+    //runtimeOnly(fg.deobf("curse.maven:mekanism-268560:4041164"))
 
     // Plain Grinder Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:plain_grinder-452000:3915901"))
+    //runtimeOnly(fg.deobf("curse.maven:plain_grinder-452000:3915901"))
 
     // Simple Grinder Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:simple_grinder-238899:4058995"))
+    runtimeOnly(fg.deobf("curse.maven:simple_grinder-238899:4214131"))
 
     // Stone Grinder Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:stone_grinder-681480:4160975"))
+    runtimeOnly(fg.deobf("curse.maven:stone_grinder-681480:4259784"))
 
     // Thermal Series Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:cofh_core-69162:4202944"))
-    runtimeOnly(fg.deobf("curse.maven:thermal_expansion-69163:4112130"))
-    runtimeOnly(fg.deobf("curse.maven:thermal_foundation-222880:4112137"))
+    //runtimeOnly(fg.deobf("curse.maven:cofh_core-69162:4202944"))
+    //runtimeOnly(fg.deobf("curse.maven:thermal_expansion-69163:4112130"))
+    //runtimeOnly(fg.deobf("curse.maven:thermal_foundation-222880:4112137"))
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

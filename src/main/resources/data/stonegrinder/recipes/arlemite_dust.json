@@ -1,7 +1,7 @@
 {
   "type": "stonegrinder:grinding",
   "ingredient": {
-    "item": "divinerpg:raw_arlemite"
+    "tag": "forge:raw_materials/arlemite"
   },
   "result": {
     "item": "drpgpc:arlemite_dust",

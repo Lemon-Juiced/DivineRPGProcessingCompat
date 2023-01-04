@@ -1,7 +1,7 @@
 {
   "type": "stonegrinder:grinding",
   "ingredient": {
-    "item": "divinerpg:raw_torridite"
+    "item": "forge:raw_materials/torridite"
   },
   "result": {
     "item": "drpgpc:torridite_dust",

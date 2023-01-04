@@ -1,7 +1,7 @@
 {
   "type": "stonegrinder:grinding",
   "ingredient": {
-    "item": "divinerpg:raw_rupee"
+    "item": "forge:raw_materials/rupee"
   },
   "result": {
     "item": "drpgpc:rupee_dust",
