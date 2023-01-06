@@ -1,10 +1,10 @@
 {
   "type": "simplegrinder:grinder",
   "ingredient": {
-    "tag": "forge:ores/bloodgem"
+    "tag": "forge:ores/mortum"
   },
   "result": {
-    "item": "divinerpg:bloodgem",
+    "item": "divinerpg:mortum_fragments",
     "count": 5
   },
   "cookingtime": 150

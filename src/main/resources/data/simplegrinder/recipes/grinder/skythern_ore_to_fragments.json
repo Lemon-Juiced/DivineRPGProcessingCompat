@@ -1,10 +1,10 @@
 {
   "type": "simplegrinder:grinder",
   "ingredient": {
-    "tag": "forge:ores/bloodgem"
+    "tag": "forge:ores/skythern"
   },
   "result": {
-    "item": "divinerpg:bloodgem",
+    "item": "divinerpg:skythern_fragments",
     "count": 5
   },
   "cookingtime": 150

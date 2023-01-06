@@ -1,10 +1,10 @@
 {
   "type": "simplegrinder:grinder",
   "ingredient": {
-    "tag": "forge:ores/bloodgem"
+    "tag": "forge:ores/eden"
   },
   "result": {
-    "item": "divinerpg:bloodgem",
+    "item": "divinerpg:eden_fragments",
     "count": 5
   },
   "cookingtime": 150
