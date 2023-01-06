@@ -44,18 +44,20 @@ authors="Lemon_Juiced" #optional
 description='''
 Tech Mod Compatability For Divine RPG.
 
-This mod allows Divine RPG ores to be ground down into dusts and then smelted into ingots.
+This mod allows Divine RPG ores to be processed like ores in any tech mod.
 
-1.0.0-pre1: Added Thermal Series Integration
-1.0.0-pre2: Added Mekanism Integration
-1.0.0-pre3: Added Plain Grinder Integration
-1.0.0-pre4: Added Factorium Integration
-1.0.0-pre5: Added Integrated Dynamics Integration
-1.0.0-pre7: Added Create Integration
-1.0.0: Added Immersive Engineering Integration
-1.0.2: Added Simple Grinder Integration, Added Stone Grinder Integration
-1.0.3: Update To 1.19.3 - Only supporting Simple Grinder and Stone Grinder until other mods update.
-1.0.4: Removed Stone Grinder Support, Stone Grinder is Broken in 1.19.3
+Currently Supports:
+- Simple Grinder
+
+Has Supported:
+- Create (1.19.2)
+- Factorium (1.19.2)
+- Immersive Engineering (1.19.2)
+- Integrated Dynamics (1.19.2)
+- Mekanism (1.19.2)
+- Plain Grinder (1.19.2)
+- Stone Grinder (1.19.2)
+- Thermal Series (1.19.2)
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.drpgpc]] #optional
