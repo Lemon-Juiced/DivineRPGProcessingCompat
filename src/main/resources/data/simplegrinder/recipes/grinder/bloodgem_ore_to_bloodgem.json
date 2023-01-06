@@ -1,14 +1,14 @@
 {
   "type": "simplegrinder:grinder",
   "ingredient": {
-    "item": "divinerpg:raw_rupee"
+    "tag": "forge:ores/bloodgem"
   },
 
   "result": {
-    "item": "drpgpc:rupee_dust",
-    "count":2
+    "item": "divinerpg:bloodgem",
+    "count": 5
   },
 
-  "experience": 0.1,
   "cookingtime": 150
+
 }

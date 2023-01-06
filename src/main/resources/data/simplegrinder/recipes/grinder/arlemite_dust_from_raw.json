@@ -1,12 +1,11 @@
 {
   "type": "simplegrinder:grinder",
   "ingredient": {
-    "item": "divinerpg:raw_realmite"
+    "tag": "forge:raw_materials/arlemite"
   },
-
   "result": {
-    "item": "drpgpc:realmite_dust",
-    "count":2
+    "item": "drpgpc:arlemite_dust",
+    "count": 2
   },
 
   "experience": 0.1,
