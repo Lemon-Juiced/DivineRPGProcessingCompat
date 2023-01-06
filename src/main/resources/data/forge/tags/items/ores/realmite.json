@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "divinerpg:realmite_ore",
     "divinerpg:realmite_ore_deepslate"
