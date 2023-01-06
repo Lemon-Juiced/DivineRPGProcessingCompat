@@ -15,7 +15,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(DivineRPGProcessingCompat.MOD_ID)
 public class DivineRPGProcessingCompat {
     public static final String MOD_ID = "drpgpc";
-    //private static final Logger LOGGER = LogUtils.getLogger();
 
     public DivineRPGProcessingCompat() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
