@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.0.3-1.19.3'
+version = '1.19.3-1.0.4'
 group = 'lemon_juice.drpgpc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'drpgpc'
 
@@ -129,6 +129,9 @@ dependencies {
 
     // DivineRPG Dependency
     runtimeOnly(fg.deobf("curse.maven:divinerpg-363543:4205686"))
+
+    // Applied Energistics 2 Optional Dependency (Can't Load With)
+    //runtimeOnly(fg.deobf("curse.maven:applied_energistics-223794:4293558"))
 
     // Factorium Optional Dependency
     //runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:3929863"))

@@ -1,0 +1,12 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "divinerpg:skythern_fragments"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "divinerpg:skythern_dust"
+  }
+}
