@@ -1,6 +1,6 @@
 package lemon_juice.drpgpc;
 
-import lemon_juice.drpgpc.event.CreativeTabEvent;
+import lemon_juice.drpgpc.creativetab.CreativeTab;
 import lemon_juice.drpgpc.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,10 +23,10 @@ public class DivineRPGProcessingCompat {
         // Register Items
         ModItems.register(modEventBus);
 
-        modEventBus.addListener(this::commonSetup);
+        // Register Creative Tab
+        modEventBus.addListener(CreativeTab::registerTabs);
 
-        // Registers Creative Tab From CreativeTabEvent
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(CreativeTabEvent::onCreativeModeTabRegister);
+        modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
